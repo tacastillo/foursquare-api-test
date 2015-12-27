@@ -1,0 +1,10 @@
+#results {
+	max-width: 66vw;
+	margin-left: 20vw;
+}
+
+#results-header {
+	margin:5px;
+	border-bottom: 1px solid #e0e0e0 !important;
+    /*WARNING: Uses !important. I'm sorry in advance*/
+}

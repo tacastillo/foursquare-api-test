@@ -4,14 +4,26 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-	<link rel="stylesheet" type="text/css" src="css/style.css"/>
+
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
 	<script type="application/javascript" src="js/main.js"></script>
 	<meta charset="utf-8">
 	<title>Photo Search</title>
 </head>
 <body>
-	<a href="https://api.instagram.com/oauth/authorize/?client_id=3396625b07f4431494fe4e71e42585d3&redirect_uri=http://tacastillo.github.io/instagram-api-test/&response_type=token">Sign in via Instagram first</a>
-	<div id="container"/>
+	<a href="https://foursquare.com/oauth2/authenticate?client_id=O2CTKQUPZF00CSVYWVJMEPEMKJ4KQPZ01TSXLHIHLLF2JVPT&response_type=token&redirect_uri=http://127.0.0.1:8080">
+		Sign in via Foursquare
+	</a>
+	<div id="container"></div>
+	<div class="center">
+		<div class="collection with-header" id="results"></div>
+	</div>
 </body>
 
 </html>
